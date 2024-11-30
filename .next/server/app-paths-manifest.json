@@ -1,0 +1,9 @@
+{
+  "/plantas/page": "app/plantas/page.js",
+  "/plantas/detalhes/page": "app/plantas/detalhes/page.js",
+  "/sobre/page": "app/sobre/page.js",
+  "/plantas/detalhes3/page": "app/plantas/detalhes3/page.js",
+  "/page": "app/page.js",
+  "/login/page": "app/login/page.js",
+  "/erro/page": "app/erro/page.js"
+}

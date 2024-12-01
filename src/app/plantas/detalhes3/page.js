@@ -15,17 +15,7 @@ export default function detalhes() {
             <p className="text-base text-gbege1 mt-2 text-justify leading-relaxed px-8 md:text-xs md:mt-1 md:px-5 md:ml-4">
             A jiboia, também conhecida como pothos, é uma das plantas de interior mais fáceis de cuidar e mais cultivadas em todo o mundo. Originária das Ilhas Solomon, ela é famosa por suas folhas em formato de coração e suas cores vibrantes, que variam do verde claro ao amarelo e até mesmo ao branco, dependendo da variedade. A jiboia é uma planta de crescimento rápido e pode ser cultivada em vasos suspensos ou como planta rasteira, criando um visual pendente e fluido. Ela é excelente para ambientes internos, pois se adapta bem a diferentes níveis de luz e requer pouco cuidado.</p>
           </div>
-
-          {/* Imagem */}
-          <div className="relative flex-shrink-0 w-full md:w-64 h-64 -translate-y-[40px] -translate-x-[-5px] md:w-[130px] md:h-[130px]">
-          <Image
-              src="/ImgGeral/Jiboiaindex.png" 
-              alt="Cacto-de-mesa"
-              width={700}
-              height={700}
-          />
           </div>
-        </div>
 
         {/* Curiosidade */}
         <div className="text-gbege1 px-8">
@@ -36,7 +26,7 @@ export default function detalhes() {
 
         {/* Seção de Cuidados */}
         <hr style={{ border: "none", borderTop: "2px solid #CBC4A0", width: "100%" }} />
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6 md:grid-cols-2 md:grid-rows-2">
+        <div className="grid grid-cols-4 md:grid-cols-2 gap-6 mt-6 md:grid-rows-2">
           <div className="flex flex-col items-center text-center p-1 px-4 md:order-1">
             <h4 className="font-bold text-lg text-gbege1 md:text-sm">Rega</h4>
             <p className="text-sm text-gbege1 md:text-xs md:whitespace-normal w-full md:block">

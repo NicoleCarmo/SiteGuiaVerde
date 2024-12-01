@@ -7,7 +7,6 @@ export default function detalhes() {
 
       <div className="rounded-l-[44px] grid gap-6 bg-gverdao w-11/12 shadow-md mt-[40px] md:gap-3">
         <div className="relative flex flex-col md:flex-row gap-6 md:gap-3">
-          <div className="flex-1">
             <h1 className="text-3xl font-bold text-gbege1 px-8 py-5 md:text-xl">Cacto-de-mesa</h1>
             <h2 className="text-xl italic font-semibold text-gbege1 px-8 md:text-base">Cactaceae</h2>
             <h3 className="text-lg font-bold text-gbege1 mt-4 px-8 md:text-sm">Descrição</h3>
@@ -21,18 +20,8 @@ export default function detalhes() {
               segmentados. Além de serem resistentes e baixos em cuidados, os cactos
               possuem espinhos que protegem suas reservas de água.
             </p>
-          </div>
-
-          {/* Imagem */}
-          <div className="relative flex-shrink-0 w-full md:w-64 h-64 -translate-y-[40px] -translate-x-12 md:w-[130px] md:h-[130px]">
-          <Image
-              src="/ImgGeral/PlantaCacto.png" 
-              alt="Cacto-de-mesa"
-              width={300}
-              height={300}
-          />
-          </div>
         </div>
+
 
         {/* Curiosidade */}
         <div className="text-gbege1 px-8">
@@ -47,7 +36,7 @@ export default function detalhes() {
 <hr style={{ border: "none", borderTop: "2px solid #CBC4A0", width: "100%" }} />
 <div className="grid grid-cols-2 gap-6 mt-6 md:grid-cols-2 md:grid-rows-2">
   <div className="flex flex-col items-center text-center p-1 md:order-1">
-    <h4 className="font-bold text-lg text-gbege1 text-xl md:text-sm">Rega</h4>
+    <h4 className="font-bold text-lg text-gbege1 md:text-sm">Rega</h4>
     <p className="text-sm text-gbege1 md:text-xs md:whitespace-normal w-full md:block">
       Regue esporadicamente, permitindo que o solo seque completamente entre as regas.
     </p>

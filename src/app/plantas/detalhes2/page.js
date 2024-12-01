@@ -16,28 +16,18 @@ export default function detalhes() {
             A Espada-de-São-Jorge, também conhecida como Sansevieria, é uma planta extremamente resistente, capaz de prosperar em condições adversas. Nativa da África, ela é conhecida por suas folhas longas e verticais que se assemelham a espadas. Essa planta é famosa por sua resistência a ambientes com pouca luz e por sua tolerância à seca. Além disso, a Espada-de-São-Jorge é uma planta purificadora do ar, removendo toxinas e melhorando a qualidade do ambiente.
             </p>
           </div>
-
-          {/* Imagem */}
-          <div className="relative flex-shrink-0 w-full md:w-64 h-64 -translate-y-[40px] -translate-x-[-5px] md:w-[130px] md:h-[130px]">
-          <Image
-              src="/ImgGeral/PlantaEspada.png" 
-              alt="Cacto-de-mesa"
-              width={200}
-              height={200}
-          />
           </div>
-        </div>
 
         {/* Curiosidade */}
         <div className="text-gbege1 px-8 md:text-xs">
-          <p className="text-base text-justify leading-relaxed">
+          <p className="text-base text-justify leading-relaxed md:text-xs">
           Curiosamente, ela pode sobreviver em uma ampla gama de condições, incluindo ambientes com ar condicionado e baixa umidade.
           </p>
         </div>
 
         {/* Seção de Cuidados */}
         <hr style={{ border: "none", borderTop: "2px solid #CBC4A0", width: "100%" }} />
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6 md:grid-cols-2 md:grid-rows-2">
+        <div className="grid grid-cols-4 md:grid-cols-2 gap-6 mt-6 md:grid-rows-2">
           <div className="flex flex-col items-center text-center p-1 px-4 md:order-1">
             <h4 className="font-bold text-lg text-gbege1 md:text-sm">Rega</h4>
             <p className="text-sm text-gbege1 md:text-xs md:whitespace-normal w-full md:block">

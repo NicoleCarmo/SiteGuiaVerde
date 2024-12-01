@@ -16,21 +16,11 @@ export default function detalhes() {
             A Hera-inglesa é uma planta clássica e versátil, amplamente utilizada para cobrir muros ou em vasos pendentes. Suas folhas verde-escuras são pequenas e podem ter bordas claras, criando um efeito visual único. Originária da Europa, essa planta é conhecida por sua capacidade de resistir a climas variados e crescer rapidamente. Ela também purifica o ar, tornando-se uma escolha funcional e decorativa.
             </p>
           </div>
-
-          {/* Imagem */}
-          <div className="relative flex-shrink-0 w-full md:w-64 h-64 pt-9 -translate-y-[100px] md:w-[130px] md:h-[130px] md:mt-9">
-          <Image
-              src="/ImgGeral/PlantaHera.png" 
-              alt="Suculenta"
-              width={300}
-              height={300}
-          />
           </div>
-        </div>
-
+          
         {/* Seção de Cuidados */}
         <hr style={{ border: "none", borderTop: "2px solid #CBC4A0", width: "100%" }} />
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6 md:grid-cols-2 md:grid-rows-2">
+        <div className="grid grid-cols-4 md:grid-cols-2 gap-6 mt-6 md:grid-rows-2">
           <div className="flex flex-col items-center text-center p-1 px-4 md:order-1">
             <h4 className="font-bold text-lg text-gbege1 md:text-sm">Rega</h4>
             <p className="text-sm text-gbege1 md:text-xs md:whitespace-normal w-full md:block">

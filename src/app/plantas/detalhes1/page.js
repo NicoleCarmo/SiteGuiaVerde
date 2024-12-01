@@ -16,21 +16,12 @@ export default function detalhes() {
             As suculentas são plantas que armazenam água em seus tecidos, tornando-as ideais para pessoas que têm pouco tempo para cuidar delas. Espécies como Echeveria e Aloe Vera são as mais populares para cultivo doméstico. As suculentas têm uma grande variedade de formas e cores, com folhas carnudas e, muitas vezes, com uma superfície cerosa que as ajuda a reter água. Elas são originárias de regiões áridas, como o deserto, e podem prosperar em ambientes internos com muita luz. Além disso, algumas suculentas, como a Aloe Vera, têm propriedades medicinais, sendo usadas para tratamentos de pele.
             </p>
           </div>
-
-          {/* Imagem */}
-          <div className="relative flex-shrink-0 w-full md:w-64 h-64 pt-9 -translate-x-5 md:w-[130px] md:h-[130px]">
-          <Image
-              src="/ImgGeral/PlantaSuculenta.png" 
-              alt="Suculenta"
-              width={300}
-              height={300}
-          />
           </div>
-        </div>
 
+      
         {/* Seção de Cuidados */}
         <hr style={{ border: "none", borderTop: "2px solid #CBC4A0", width: "100%" }} />
-        <div className="grid grid-cols-2 md:grid-cols-4 gap-6 mt-6 md:grid-cols-2 md:grid-rows-2">
+        <div className="grid grid-cols-4 md:grid-cols-2 gap-6 mt-6 md:grid-rows-2">
           <div className="flex flex-col items-center text-center p-1 px-4 md:order-1">
             <h4 className="font-bold text-lg text-gbege1 md:text-sm">Rega</h4>
             <p className="text-sm text-gbege1 md:text-xs md:whitespace-normal w-full md:block">
